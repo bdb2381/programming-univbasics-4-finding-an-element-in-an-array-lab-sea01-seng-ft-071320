@@ -11,8 +11,7 @@ def find_element_index(array, value_to_find)
       puts location
       return location
     end
-
     index += 1
   end
-
+  return 
 end
