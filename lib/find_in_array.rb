@@ -4,9 +4,10 @@ def find_element_index(array, value_to_find)
     #puts array[index] == value_to_find
     if array[index] == value_to_find
       puts "test code"
-      return array[index]
+      location = array[index]
+      return location
     end
-    
+
     index += 1
   end
 
