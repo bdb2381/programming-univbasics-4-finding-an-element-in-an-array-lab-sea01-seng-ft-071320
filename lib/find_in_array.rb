@@ -4,7 +4,7 @@ def find_element_index(array, value_to_find)
       if array[index] == value_to_find
         return location = array.index(value_to_find)
       end
-    index += 1
-  end
+      index += 1
+    end
   return
 end
