@@ -1,5 +1,6 @@
 def find_element_index(array, value_to_find)
   index = 0
+  puts value_to_find
   puts array
   array.size.times do
     #puts array[index] == value_to_find
